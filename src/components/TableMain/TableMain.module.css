@@ -34,3 +34,6 @@
 .dataTable .negative {
     color: #ff4d4d; /* Цвет текста для отрицательных значений */
 }
+.tdST{
+    max-width: 100px;
+}

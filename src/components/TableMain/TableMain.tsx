@@ -1,3 +1,4 @@
+// @ts-nocheck
 import React, {useState} from 'react';
 import styles from './TableMain.module.css'
 import {Table} from "../Table/Table";
@@ -52,6 +53,7 @@ export const TableMain = ( ) => {
         { date: '30.11.2024', shipment: 31347, railRoad: 20347, pipe: 0, mnpp: 11000, water: '', emissions: 38018, production: 149194, remainingFirst: 65141, capacity: 182389, unprocessedShipment: '' },
         { date: 'Всего', shipment: 960718, railRoad: 579121, pipe: 4237, mnpp: 266961, water: 110400, emissions: 1188500, production: 341071, remainingFirst: 214347, capacity: 290416, unprocessedShipment: 15502 },
     ];
+
 
     return (
         <div style={{padding: 20}}>
