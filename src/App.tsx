@@ -10,7 +10,6 @@ import {TableMain} from "./components/TableMain/TableMain";
 function App() {
   return (
       <HashRouter>
-
         <Routes>
           <Route path="/" element={<TableMain  />}/>
         </Routes>
