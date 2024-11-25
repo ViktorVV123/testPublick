@@ -1,0 +1,36 @@
+.tableResponsive {
+    max-height: 70vh; /* Ограничиваем высоту таблицы */
+    overflow-y: auto; /* Вертикальная прокрутка */
+    overflow-x: auto; /* Горизонтальная прокрутка */
+    margin: 20px 0; /* Отступ сверху и снизу */
+    border: 1px solid #555; /* Рамка вокруг таблицы */
+}
+
+.dataTable {
+    width: 100%; /* Ширина таблицы 100% для адаптивности */
+    border-collapse: collapse; /* Убираем промежутки между ячейками */
+    background-color: #0e0e0e; /* Цвет фона таблицы */
+}
+
+.dataTable th,
+.dataTable td {
+    padding: 10px; /* Отступы внутри ячеек */
+    text-align: center; /* Выравнивание текста по центру */
+    border: 1px solid #555; /* Рамка вокруг ячеек */
+    color: #fff; /* Цвет текста */
+}
+
+.dataTable th {
+    background-color: #1c1c1e; /* Цвет фона заголовков */
+    position: sticky; /* Закрепляем заголовки */
+    top: 0; /* Расположение заголовков */
+    z-index: 10; /* Приоритет слоя заголовков */
+}
+
+.dataTable tr:hover {
+    background-color: #292929; /* Подсветка строки при наведении */
+}
+
+.dataTable .negative {
+    color: #ff4d4d; /* Цвет текста для отрицательных значений */
+}
