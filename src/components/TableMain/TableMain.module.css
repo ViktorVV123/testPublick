@@ -7,6 +7,7 @@
 }
 
 .dataTable {
+
     width: 100%; /* Ширина таблицы 100% для адаптивности */
     border-collapse: collapse; /* Убираем промежутки между ячейками */
     background-color: #0e0e0e; /* Цвет фона таблицы */
